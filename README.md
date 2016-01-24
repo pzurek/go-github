@@ -24,6 +24,7 @@ client := github.NewClient(nil)
 orgs, _, err := client.Organizations.List("willnorris", nil)
 ```
 
+
 Some API methods have optional parameters that can be passed.  For example,
 to list repositories for the "github" organization, sorted by the time they
 were last updated:
